@@ -13,8 +13,7 @@ namespace ConsoleApp15
         public static void Return3Lines(string path,int n)
         {
             using (StreamWriter sw = new StreamWriter(path))
-            {
-                
+            {                
                     sw.WriteLine("The Kingdom of Armenia reached its \nheight under Tigranes the Great in the \n1st century BC and in the year 301 became the first \nstate in the world to adopt Christianity as its official religion.[20][21][22][c] Armenia still recognises the Armenian Apostolic Church, the world's oldest national church, as the country's primary\n religious establishment.[23][d] The ancient Armenian kingdom was split \nbetween the Byzantine and Sasanian Empires around the early 5th century.");
             }
 
@@ -72,7 +71,6 @@ namespace ConsoleApp15
                 }
             }
         }
-
         public static void ReturnValue()
         {
             
@@ -91,7 +89,6 @@ namespace ConsoleApp15
                 Console.WriteLine("Program end");
             }
         }
-        
         public static void ExistsFile(string path)
         {
             try
@@ -160,8 +157,7 @@ namespace ConsoleApp15
         public static void ReturnNumDiv(int x, int y)
         {
             try
-            {
-                             
+            {                            
                 Console.WriteLine(x / y);               
             }
             catch (Exception ex)
